@@ -11,3 +11,53 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+nav {
+  background-color: #24292e;
+  color: hsla(0,0%,100%,.7);
+  font-size: 20px;
+  line-height: 1.5;
+  padding: 16px;
+  z-index: 32;
+}
+
+.issue {
+  border-top: 1px solid #e1e4e8;
+  list-style-type: none;
+  margin-top: -1px;
+  padding: 16px;
+  font-size: 12px;
+}
+
+.issue-box {
+  background-color: #fff;
+  border: 1px solid black;
+  border-radius: 3px;
+  margin: 0 auto;
+  display: center;
+}
+
+img {
+  height: 25px;
+  width: 25px;
+}
+
+.landing {
+  margin-left: 35%;
+}
+
+.poo {
+  height: 200px;
+  width: 200px;
+}
+
+.searchbar {
+    background: none;
+    border: 0;
+    box-shadow: none;
+    color: inherit;
+    display: inline;
+    font-size: inherit;
+    padding-bottom: 0;
+    padding-top: 0;
+}
