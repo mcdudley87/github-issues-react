@@ -30,7 +30,7 @@ render () {
           <input type="text" placeholder="Find some sh*t, yo..." class="searchbar" /> {''}
           <Link to="/">Landing</Link> {''}
           <Link to="/issuesindex">Issues</Link> {''}
-          <Link to="/show">Issue ID</Link> {''}
+          {/* <Link to="/show">Issue ID</Link> {''} */}
           <Link to="/">Michael's risque selfies blog...</Link>
         </nav>    
           <Route exact path="/" component={Landing} />
@@ -38,7 +38,7 @@ render () {
             render={() => (<IssuesIndex issues={this.state.issue} />)}
             />
           <Route exact path="/show" component={Show} />
-          <Route exact path="/show/:number" />
+          <Route exact path="/show/:id" component={Show} />
       </Router>
       </>
     )
